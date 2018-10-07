@@ -12,5 +12,6 @@ public static void launchBrowser(){
 	driver =new ChromeDriver();
 	driver.get("https://facebook.com/");
 	driver.close();
+	driver.quit();
 }
 }
